@@ -1,0 +1,22 @@
+MVP Match Task
+Vending Machine
+
+# prerequisite
+- Python IDE
+
+# INSTALLATIONS
+# Create a virtual environment to isolate our package dependencies locally
+python3 -m venv env
+source env/bin/activate  # On Windows use `env\Scripts\activate`
+
+# Install Django and Django REST framework into the virtual environment
+pip install django
+pip install djangorestframework
+
+# POST INSTALLATION
+- using command line 
+- cd to vendingmachine
+- first, run migration to model and create a local database
+- run "python manage.py makemigrations"
+- run "python manage.py migrate"
+- then, to lunch application,  run "python manage.py runserver"
